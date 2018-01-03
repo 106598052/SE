@@ -11,7 +11,6 @@ public class letterGrade {
 			System.out.println(letterGrade(scanner.nextInt()));
 		}
 	}
-	
 	public static char letterGrade(int score) { char grade;
 	if (score <0 || score > 100) grade = 'X';
 	else if (score>=90 && score <=100) grade = 'A';
